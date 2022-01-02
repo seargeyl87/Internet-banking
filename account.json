@@ -1,0 +1,11 @@
+{
+"cardName": "Debit card",
+"bankName": "HBL",
+"cardNumber": "1234 4567 8912 3456",
+"cvv": "0123",
+"expirationDate": "01/22",
+"cardOwner": "John Smith",
+"spentAmount": 232.50,
+"currencySymbol": "$",
+"ballanceAmount": 1256.10
+}

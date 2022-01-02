@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale = 1" />
+    <meta charset="utf-8" />
+    <title>bank</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+    <div class="leftboard">
+        <div class="icon1">
+            <a href="index.html"><img src="logo/icon1.png"></a>
+        </div>
+        <div class="icon2">
+            <a href="newtransactions.html"><img src="logo/icon2.png"></a>
+        </div>
+        <div class="icon3">
+            <a href="newsdata.html"><img src="logo/icon3.png"></a>
+        </div>
+    </div>
+    <div class="head">
+        <div class="img-logo"><img src="logo/logo-2.png"></div>
+
+        <div class="search">
+            <div class="search-input"><input id="searchInput" type="text" name="quantity" placeholder="Введите данные"></div>
+            <div class="button-search"><input id="butt" type="button" value="Search" onclick="search()"/></div>
+        </div>
+
+    </div>
+    <div class="rightboard"></div>
+    <div class="title-page2"><p>new transactions</p></div>
+    </div>
+    <div class="container history chart">
+        <div class="transaction_history">
+            <div class="header1">
+                <div class="transaction_head">
+                    transaction history
+                </div>
+
+                <div class="select_status">
+                    <select id="select_status_transaction" onchange="selectStatusTransaction()">
+                        <option value="4">All Status</option>
+                        <option value="1">Sent</option>
+                        <option value="2">Pending</option>
+                        <option value="3">Received</option>
+                    </select>
+                </div>
+
+                <div class="time">
+                    <select id="selecttime1" onchange="onChangeEvent()">
+                        <option value="4">Yearly</option>
+                        <option value="3">Monthly</option>
+                        <option value="2">Weekly</option>
+                        <option value="1">Daily</option>
+                    
+                    </select>
+                </div>
+            </div>
+            <div class="transaction_container">
+                <div class="transaction1">
+                    <div class="person">
+                        <div class="foto"></div>
+                        <div class="data-person">
+                            <div class="names"></div>
+                            <div class="gmail"></div>
+                        </div>
+                    </div>
+                    <div class="cash"><p></p></div>
+                    <div class="status"></div>
+                    <div class="data">
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="button"><input id="button" type="button" value="Show next transactions" onclick="plusTen()"></div>
+    </div>
+    <div class="bottomboard">Minsk 2021</div>
+</body>
+
+<script src="js/random-card.js"></script>
+<script src="js/newtransactions.js"></script>
+</html>
+

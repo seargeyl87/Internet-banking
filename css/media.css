@@ -1,0 +1,331 @@
+
+@media only screen and (max-width:1199.98px) {
+    .title p {
+        text-align: center;
+        margin-right: 100px;
+    }
+    .container.flex-start {
+        flex-direction: column;
+        align-items: center;
+    }
+    .item1, .item2, .item3 {
+        margin-top: 30px;
+    }
+    .container.history.chart {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .transaction_history {
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (max-width:991.98px) {
+    
+    .item1 {
+        height: 174px;
+        width: 280px;
+    }
+
+    .item1 .card-second,
+    .item1 .card-third{
+        height: 174px;
+        width: 257px
+    }
+.item1 .card-third{
+        width: 233px;
+}
+.item2, .item3 {
+        height: 174px;
+        width: 280px;
+}
+
+
+    .item1 .digits {
+        font-size: 18px;
+    }
+    .item1 .some-little-digits {
+        font-size: 10px;
+    }
+    .item1 .card-holders-name {
+        font-size: 17px;
+    }
+
+    .item2 .spent-txt {
+        font-size: 18px;
+    }
+    .spent-sum {
+        font-size: 18px;
+    }
+    .item3 .balance-txt {
+        font-size: 18px;
+    }
+    .spent-sum-balance {
+        font-size: 18px;
+    }
+
+    .transaction_history {
+        width: 550px;
+    }
+    .container.history.chart {
+        margin-left: 50px;
+    }
+    .transaction .cash {
+        padding-bottom: 10px;
+        padding-top: 0px;
+         margin-left: 10px;
+    }
+
+    .transaction .data {
+        margin-top: 20px;
+        margin-bottom: 10px; 
+    } 
+
+    .container-news .content-news .img-news img{
+        height: 133px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:767.97px) {
+    .transaction {
+        display: flex;
+        flex-flow: column wrap;
+        flex-wrap: wrap;
+    }
+    .transaction .person {
+        display: flex;
+        width: 150px;
+    }
+    .graph {
+        width: 400px;
+    }
+    .head .search {
+        margin-top: 10px;
+    }
+
+    .container.history.chart {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .chart_box {
+        height: 300px;
+        width: 250px;
+       margin-left: 50px;
+       overflow:auto;
+    }
+    .header2 {
+        justify-content: space-around;
+    }
+    .transaction_history {
+        width: 400px;
+        margin-left: 10px;
+    }
+    .head,  .bottomboard {
+        height: 30px;
+    }
+    .leftboard, .rightboard {
+        width: 30px;
+    }
+    .icon1 {
+        height: 19px;
+        width: 17px;
+        margin-top: 100px;
+    }
+    .icon1 img{
+        height: 15px;
+        width: 18px;
+    }
+    
+    .icon2 {
+        height: 15px;
+        width: 18px;
+        margin-top: 100px;
+    }
+    .icon2 img{
+    
+        height: 15px;
+        width: 20px;
+    }
+    .icon3 {
+        height: 15px;
+        width: 15px;
+        margin-top: 100px
+    }
+    .icon3 img {
+        height: 15px;
+        width: 15px;
+    }
+    .container-news .content-news .img-news img{
+        height: 88px;
+        width: 133px;
+    }
+    .container-news .content-news {
+        margin-top: 30px;
+    }
+    .title-page3 {
+        font-size: 20px;
+    }
+    .container-news {
+        margin-top: 11px;
+    }
+    .sent {
+        margin-left: 40px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:575.97px) {
+    .header1 {
+        flex-direction: column;
+      justify-content: space-between;
+      height: 80px;
+      align-items: center;
+    }
+    .item1 .vector {
+        display: none;
+    }
+    .sent {
+        color: seashell;
+        background: green;
+        margin-left: 0px;
+    
+    }
+   .head .img-logo img{  
+       display: none;
+    }
+  
+    .transaction_history {
+        width: 280px;
+        margin-left: 10px;
+    }
+   
+  
+    .item1 .card-second,
+    .item1 .card-third{
+       display: none;
+    }
+
+    .item1 .digits {
+        font-size: 12px;
+    }
+    .item1 .some-little-digits {
+        font-size: 9px;
+    }
+    .item1 .card-holders-name {
+        font-size: 13px;
+    }
+
+    .item2 .spent-txt {
+        font-size: 14px;
+    }
+    .spent-sum {
+        font-size: 14px;
+    }
+    .item3 .balance-txt {
+        font-size: 14px;
+    }
+    .spent-sum-balance {
+        font-size: 14px;
+    }
+    
+    .item1, .item2, .item3 {
+        height: 120px;
+        width: 195px;
+    }
+
+    .card-header {
+        font-size: 12px;
+    }
+    body .container-news {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .source-news {
+        margin-top: 3px;
+    }
+    .container-news .content-news .img-news img{
+        height: 73px;
+        width: 111px;
+    }
+    
+    .container-news .content-news .news-txt .date-news {
+        display: none;
+    }
+    .container-news .content-news .news-txt {
+        margin-left: 10px;
+    }
+    .title-page3 {
+        font-size: 18px;
+    }
+    .spent-sum {
+        margin-top: 30px;
+    }
+    .spent-sum-balance {
+        
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:375.97px) {
+
+    .transaction_history {
+        max-width: 250px;
+    }
+    .item1 .digits {
+        font-size: 9px;
+    }
+    .item1 .some-little-digits {
+        font-size: 7px;
+    }
+    .item1 .card-holders-name {
+        font-size: 10px;
+    }
+    .ballance-amount {
+        font-size: 9px;
+    }
+    .transaction .person .foto {
+        display: none;
+    }
+    .head,  .bottomboard {
+        height: 20px;
+    }
+    .leftboard, .rightboard {
+        width: 20px;
+    }
+    .transaction_history .transaction_container {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 25px;
+    }
+    .transaction .person {
+        width: 80px;
+    }
+    .title {
+        text-transform:capitalize;
+        font-size: 18px;
+    }
+    .item1, .item2, .item3 {
+        height: 105px;
+        width: 175px;
+    }
+    .chart_box .header2{
+        justify-content: center;
+    }
+    .container-news .content-news .img-news img{
+        height: 61px;
+        width: 91px;
+    }
+    .title-page3 {
+        font-size: 15px;
+    }
+    .title-page2 {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+}

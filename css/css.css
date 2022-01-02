@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #F2F5FA;
+    padding-left: 70px;
+    position:relative;
+    margin-top: 0;
+}
+.head .search {
+    display: flex;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.title {
+    text-transform:capitalize;
+    font-size: 24px;
+    margin-left: 100px;
+    
+}
+.container.flex-start {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.item1 .item2 .item3 {
+    max-width: 100%;
+    display:block;
+    box-sizing: border-box;
+    flex-shrink: 8
+}
+.item1 {
+    max-width: 100%;
+    display: block;
+    background: rgb(168,14,14);
+    background: linear-gradient(54deg, rgba(168,14,14,1) 0%, rgba(168,14,14,1) 0%, rgba(35,17,18,1) 0%, rgba(23,19,19,1) 38%, rgba(0,0,0,1) 38%, rgba(0,0,0,0.9402135854341737) 39%, rgba(36,0,3,1) 100%, rgba(88,0,10,1) 100%, rgba(89,0,0,1) 100%);
+    color: blanchedalmond;
+    height: 209px;
+    width: 336px;
+    border-radius: 5%;
+    position: relative;
+  }
+  
+  .item1 .card-second,
+  .item1 .card-third{
+      height: 209px;
+      width: 308px;
+      background-color: rgb(87, 86, 86);
+      position: absolute;
+      top: 12px;
+      left: 14px;
+      z-index: -1;
+      border-radius: 5%;
+  }
+  
+  .item1 .card-third{
+      background-color: grey;
+      width: 280px;
+      top: 24px;
+      z-index: -2;
+      left: 28px;
+  }
+  
+  .item1 .card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .item1 .digits {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .item1 .vector {
+     background: url(/foto/Vector1.png) no-repeat;
+     height: 36px;
+      width: 46px;
+      margin-left: 20px;
+  }
+.card-type {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.card-bank {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+  .item1 .digits span {
+    display: block;
+  }
+  
+  .item1 .some-little-digits {
+    font-size: 12px;
+    padding-left: 25px;
+  }
+  .valid-date {
+      margin-right: 20px;
+  }
+  .item1 .valid-block {
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 12px;
+  }
+  
+  .item1 .valid-block .text-block{
+      font-size: 8px;
+      text-align: center;
+      margin-right: 5px;
+  }
+  
+  .item1 .card-holders-name{
+      padding-left: 15px;
+      font-size: 22px;
+  }
+  .dot {
+    width: 3px;
+    height: 3px;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+  }
+.item2 {
+    max-width: 100%;
+    display:block;
+    background: rgb(2,0,36);
+    background: linear-gradient(54deg, rgba(2,0,36,1) 0%, rgba(0,88,75,1) 60%, rgba(36,132,158,1) 100%);
+    color: blanchedalmond;
+    border-radius: 15px;
+    height: 209px;
+    width: 336px;
+}
+.item2 .spent-txt {
+    font-size: 25px;
+    text-transform:capitalize;
+    margin-left: 20px;
+    margin-top:10px;
+    color: blanchedalmond;
+}
+.spent-sum {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-size: 25px;
+}
+.spent-sum .currency {
+    margin-right: 10px;
+}
+.ballance-amount {
+    margin-left: 20px;
+    display: flex;
+    font-size: 12px;
+}
+.ballance-amount .percent-txt {
+    margin-left: 10px;
+}
+
+.item3 {
+    max-width: 100%;
+    display:block;
+    background: rgb(2,0,36);
+    background: linear-gradient(54deg, rgba(2,0,36,1) 0%, rgba(36,0,3,1) 61%, rgba(88,0,10,1) 100%, rgba(89,0,0,1) 100%, rgba(36,132,158,1) 100%);
+    color: blanchedalmond;
+    border-radius: 15px;
+    height: 209px;
+    width: 336px;
+}
+.spent-sum-balance {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-size: 25px;
+}
+.item3 .balance-txt {
+    font-size: 25px;
+    text-transform:capitalize;
+    margin-left: 20px;
+    margin-top:10px;
+    color: blanchedalmond;
+
+}
+
+.ballance-amount-card3 {
+    display: flex;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.ballance-amount-card3 .percent-txt-card3 {
+    margin-left: 7px;
+}
+
+.spent-sum-balance .currency-balance {
+    margin-right: 10px;
+}
+
+.container.history.chart {
+    display: flex;
+    justify-content: space-around;
+    width: 88%;
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-top: 90px;
+    margin-bottom: 200px;
+}
+
+.leftboard {
+    position: fixed;
+    width: 70px;
+    height: 100%;
+    top: 0px;
+    background-color: #F2F5FA;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.rightboard {  
+    position: fixed;
+    right: 0px; 
+    top: 0px;
+    width: 70px;
+    height: 100%;
+    background-color: #F2F5FA;
+  
+}
+
+.bottomboard {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: #F2F5FA;
+    position:relative;
+    align-items: center;
+    
+}
+
+.transaction_history {
+    display: flex;
+    width: 690px;
+    flex-direction: column;
+}
+
+.title-page2 {
+    text-transform:capitalize;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title-page3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header1 .transaction_head {
+    text-transform:capitalize;
+    font-style:italic;
+    font-size: 20px;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.graph {
+    height: 372px;
+    width: 511px;
+}
+.icon1 {
+    height: 38px;
+    width: 35px;
+    margin-top: 150px;
+}
+.icon1 img{
+
+    height: 31px;
+    width: 40px;
+
+}
+
+.icon2 {
+    height: 31px;
+    width: 40px;
+    margin-top: 100px;
+
+}
+.icon2 img{
+
+    height: 31px;
+    width: 40px;
+
+}
+.icon3 {
+    height: 30px;
+    width: 30px;
+    margin-top: 100px;
+    
+}
+
+.icon3 img{
+    height: 30px;
+    width: 30px;
+
+}
+
+
+.transaction_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.transaction:nth-child(2n) {
+     background: #f0f0f0; 
+ } 
+       
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+
+}
+
+.transaction .foto {
+    width: 50px;
+    height: 50px;
+}
+
+.transaction .person {
+    display: flex;
+    width: 200px;
+}
+
+.transaction .person .names {
+    font-family: 'Poppins';
+    color: #0081FF;
+    font-size: 15px;
+}
+
+.transaction .person .gmail {
+    font-family: 'Poppins';
+    color: #8291A9;
+    font-size: 9px;
+}
+
+.transaction .cash {
+    font-size: 12px;
+    font-family: 'Poppins';
+    color: #000000;
+    font-size: 15px;
+    width: 50px;
+    margin-left: 30px;
+}
+
+.transaction .status {
+    font-family: 'Poppins';
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.transaction .data {
+   background-color: rgb(226, 217, 217);
+   font-size: 17px;
+}
+
+.sent {
+    color: seashell;
+    background: green;
+    margin-left: 30px;
+
+}
+.received {
+    color: rgb(255, 187, 0);
+    border: rgb(224, 205, 120) solid 3px;
+}
+
+.pending {
+    color: blue;
+    border: blue solid 3px;;
+}
+.container-news {
+    margin: 10px;
+}
